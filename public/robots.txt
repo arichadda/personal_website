@@ -1,0 +1,3 @@
+Sitemap: https://chadda.ai/sitemap.xml
+User-agent: *
+Disallow:
