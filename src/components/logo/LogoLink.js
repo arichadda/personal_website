@@ -1,7 +1,6 @@
 import React from "react";
-import { Link, Tooltip, Zoom } from "@material-ui/core";
+import { Tooltip, Zoom, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import Resume from "../../settings/resume.json";
 import { Logo } from "./Logo";
 
 const useStyles = makeStyles((theme) => ({
@@ -15,6 +14,10 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
+function refreshPage() { 
+    window.location.reload(); 
+}
+
 export const LogoLink = () => {
     const classes = useStyles();
 
@@ -24,16 +27,13 @@ export const LogoLink = () => {
             placement="right"
             TransitionComponent={Zoom}
         >
-            <Link
-                variant="h6"
-                href={Resume.basics.url}
-                underline="none"
+             <Button
                 color="inherit"
-                noWrap
                 className={classes.svg}
+                onClick={refreshPage}
             >
-                <Logo />
-            </Link>
+                <Logo/>
+            </Button>
         </Tooltip>
     );
 };

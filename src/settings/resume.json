@@ -28,15 +28,21 @@
             },
             {
                 "network": "LinkedIn",
-                "username": "arichadda",
-                "url": "https://www.linkedin.com/in/arichadda/",
+                "username": "https://www.linkedin.com/in/arichadda",
+                "url": "https://www.linkedin.com/in/arichadda",
                 "x_icon": "fab fa-linkedin-in"
             },
             {
                 "network": "GitHub",
-                "username": "arichadda",
+                "username": "https://github.com/arichadda",
                 "url": "https://github.com/arichadda",
                 "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Medium",
+                "username": "https://medium.com/@ari.chadda",
+                "url": "https://medium.com/@ari.chadda",
+                "x_icon": "fab fa-medium"
             }
         ], 
         "pages": [
@@ -50,10 +56,6 @@
             },
             {
                 "name": "Work Experience",
-                "url": ""
-            },
-            {
-                "name": "Misc",
                 "url": ""
             }
         ]
