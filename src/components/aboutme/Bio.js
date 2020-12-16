@@ -56,6 +56,11 @@ export const Bio = () => {
                     I have strong programming fundamentals as well as experience with various neural networks (YOLO, EfficentNet, etc.) and other machine learning techniques in both PyTorch and TensorFlow. 
                     I am most interested in leveraging what I’ve learned to create production-ready solutions.
                 </Typography>
+                <br></br>
+                <Typography variant="body2">
+                    Currently in search of a 2021 summer internship in data science, ML/AI engineering, or software engineering. 
+                    If you know of any opportunities or are looking for a scrappy and persistent summer intern please reach out and let me know. 
+                </Typography>
             </div>
 
         </Container>
