@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
     root: {
         width: '100%',
         marginBottom: 100,
-        // backgroundColor: theme.palette.background.paper,
       },
       inline: {
         display: 'inline',
@@ -33,10 +32,10 @@ export const ProjectCards = () => {
             <List className={classes.root}>
                 <ListItem alignItems="flex-start">
                     <ListItemText
-                    primary="Project One"
+                    primary="HealthMine App"
                     secondary={
                         <React.Fragment>
-                            {"The allocation of capital is society is an incredibly onus as one decides how the future is shaped. VC's determine which technologies are nurtured into existence and which less-promising ones are left by the wayside. The VCIC and related workshops would give me valuable insight and experience into the process of valuing companies and predicting their trajectories. In the near term, weak-AI/ML companies will restructure our relationships with data and each other, in the mid-term synthetic biology will revolutionize our understanding of the limits of the natural world, and, in the long term, once, quantum computing can maintain millions of stable qubits, as opposed to the fifty-or-so that are in quantum computers today, it will usher in a new age of computational achievement that may even allow for true artificial intelligence. With, VCIC and related workshops I would love to explore and discuss the future of civilization. "}
+                            {"Full-stack Android mobile sensing application called HealthMine to contextualize adverse diabetes-related glycemic events to foster better patient care."}
                         </React.Fragment>
                     }
                     />
@@ -44,10 +43,10 @@ export const ProjectCards = () => {
                 <Divider component="li" />
                 <ListItem alignItems="flex-start">
                     <ListItemText
-                    primary="Project One"
+                    primary="Aircraft Sub-Characteristic Classification Pipeline"
                     secondary={
                         <React.Fragment>
-                            {"The allocation of capital is society is an incredibly onus as one decides how the future is shaped. VC's determine which technologies are nurtured into existence and which less-promising ones are left by the wayside. The VCIC and related workshops would give me valuable insight and experience into the process of valuing companies and predicting their trajectories. In the near term, weak-AI/ML companies will restructure our relationships with data and each other, in the mid-term synthetic biology will revolutionize our understanding of the limits of the natural world, and, in the long term, once, quantum computing can maintain millions of stable qubits, as opposed to the fifty-or-so that are in quantum computers today, it will usher in a new age of computational achievement that may even allow for true artificial intelligence. With, VCIC and related workshops I would love to explore and discuss the future of civilization. "}
+                            {"machine learning pipeline to perform complex classifications of civilian and military aircraft by using YOLOv5."}
                         </React.Fragment>
                     }
                     />
@@ -55,10 +54,10 @@ export const ProjectCards = () => {
                 <Divider component="li" />
                 <ListItem alignItems="flex-start">
                     <ListItemText
-                    primary="Project One"
+                    primary="Chess AI"
                     secondary={
                         <React.Fragment>
-                            {"The allocation of capital is society is an incredibly onus as one decides how the future is shaped. VC's determine which technologies are nurtured into existence and which less-promising ones are left by the wayside. The VCIC and related workshops would give me valuable insight and experience into the process of valuing companies and predicting their trajectories. In the near term, weak-AI/ML companies will restructure our relationships with data and each other, in the mid-term synthetic biology will revolutionize our understanding of the limits of the natural world, and, in the long term, once, quantum computing can maintain millions of stable qubits, as opposed to the fifty-or-so that are in quantum computers today, it will usher in a new age of computational achievement that may even allow for true artificial intelligence. With, VCIC and related workshops I would love to explore and discuss the future of civilization. "}
+                            {"Implemented the Minimax algorithm with the material heuristic to create a search-tree-based chess player."}
                         </React.Fragment>
                     }
                     />
@@ -66,10 +65,65 @@ export const ProjectCards = () => {
                 <Divider component="li" />
                 <ListItem alignItems="flex-start">
                     <ListItemText
-                    primary="Project One"
+                    primary="Restaurant Textbot"
                     secondary={
                         <React.Fragment>
-                            {"The allocation of capital is society is an incredibly onus as one decides how the future is shaped. VC's determine which technologies are nurtured into existence and which less-promising ones are left by the wayside. The VCIC and related workshops would give me valuable insight and experience into the process of valuing companies and predicting their trajectories. In the near term, weak-AI/ML companies will restructure our relationships with data and each other, in the mid-term synthetic biology will revolutionize our understanding of the limits of the natural world, and, in the long term, once, quantum computing can maintain millions of stable qubits, as opposed to the fifty-or-so that are in quantum computers today, it will usher in a new age of computational achievement that may even allow for true artificial intelligence. With, VCIC and related workshops I would love to explore and discuss the future of civilization. "}
+                            {"Created a text-based chatbot service using Twillio and Google APIs to find top restaurants in your city."}
+                        </React.Fragment>
+                    }
+                    />
+                </ListItem>
+                <Divider component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemText
+                    primary="Tiny Search Engine"
+                    secondary={
+                        <React.Fragment>
+                            {"Wrote a web crawler, indexer, and querier interfaces in C to find web pages using keywords."}
+                        </React.Fragment>
+                    }
+                    />
+                </ListItem>
+                <Divider component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemText
+                    primary="Sudoku Solver"
+                    secondary={
+                        <React.Fragment>
+                            {"Converted puzzles to constraint normal form and implemented WalkSAT and GSAT algorithms to solve."}
+                        </React.Fragment>
+                    }
+                    />
+                </ListItem>
+                <Divider component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemText
+                    primary="HMM Maze Solver"
+                    secondary={
+                        <React.Fragment>
+                            {"Implemented the particle filtering Hidden Markov Model to solve robot maze problems with probabilistic inputs."}
+                        </React.Fragment>
+                    }
+                    />
+                </ListItem>
+                <Divider component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemText
+                    primary="Run Tracker App"
+                    secondary={
+                        <React.Fragment>
+                            {"Created full-stack Android run tracking app that supports both GPS tracking and manual entry."}
+                        </React.Fragment>
+                    }
+                    />
+                </ListItem>
+                <Divider component="li" />
+                <ListItem alignItems="flex-start">
+                    <ListItemText
+                    primary="Constraint Satisfaction Problem Solver"
+                    secondary={
+                        <React.Fragment>
+                            {"Implementations of solvers for the map coloring and circut board constraint satisfaction probelms using backtracking, ac3, etc. "}
                         </React.Fragment>
                     }
                     />

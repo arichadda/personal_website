@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         flex: 1,
     },
     left: {
-        marginTop: 30,
+        marginTop: 0,
         flex: 3,
     }
 }));
@@ -38,16 +38,24 @@ export const Bio = () => {
                 <Typography variant="h5" component="h2" gutterBottom>
                     About Me
                 </Typography>
-                <p>I’ve been around the world twice, talked to everyone once, seen two whales fuck, been to 3 world fairs, and I even know a man in Thailand with a wooden cock. 
-                    Push more peter, more sweeter and more completer than any other peter pusher around. 
-                    I’m a hard bodied, hairy chested, rootin, tootin, shootin, parachutin, demolition double cap crimping, frog man. 
-                    There ain’t nothing I can’t do, no sky too high, no sea to rough, no muff too tough. 
-                    Learnt a lot of lessons in my life, never shoot a large caliber man with a small caliber bullet. 
-                    Drive all kinds of truck 2 bys, 4 bys, 6 bys, those big motherfuckers that bend and go tshhhh, tshhhh, when you step on the breaks. 
-                    Anything in life worth doing, is worth overdoing, moderation is for cowards. 
-                    I’m a lover, I’m a fighter, I’m a UDT Navy Seal Diver, I wine, dine, intertwine and sneak out the back door when the revealing is done. 
-                    So if you’re feeling froggy you better jump because this frogman’s been there, done that, and is going back for more. Cheers Boys!
-                </p>
+                <Typography variant="body2">
+                    I'm Ari Chadda, a junior at Dartmouth College double majoring in Computer Science and Philosophy as well as pursuing a minor in Arabic.  
+                    I spent this past summer at the Intelligence Community’s Venture Capital arm: In-Q-Tel as a Data Science/Machine Learning intern creating and optimizing machine learning pipelines to detect and classify aircraft using complex characteristics in remote sensing imagery. 
+                </Typography>
+                <br></br>
+                <Typography variant="body2">
+                    A little more about me: I’ve been exposed to a wide range of coursework related to artificial intelligence, machine learning, and data science. 
+                    Most recently, for my lab at Dartmouth, I’ve been building a mobile sensing application with a team of developers and have been involved in developing the full stack (API integration, UI/UX, database, etc.). 
+                    From there, we hope to leverage the data collected to create machine learning pipelines to predict and contextualize adverse glycemic events in diabetes patients. 
+                    Additionally, in the data collection interim, I’ve been working on a renal tumor detection pipeline on CT scan imagery to provide radiologists with a second-look confirmation tool. 
+                    In addition to my work at In-Q-Tel and the Augmented Health Lab, I have also worked at the National Institutes of Health and the D.C. Gov’s Office of the Chief Financial Officer. 
+                    While seemingly unrelated, the breadth of these experiences has often given me unique insights into problems that I would not have considered otherwise.
+                </Typography>
+                <br></br>
+                <Typography variant="body2">
+                    I have strong programming fundamentals as well as experience with various neural networks (YOLO, EfficentNet, etc.) and other machine learning techniques in both PyTorch and TensorFlow. 
+                    I am most interested in leveraging what I’ve learned to create production-ready solutions.
+                </Typography>
             </div>
 
         </Container>
