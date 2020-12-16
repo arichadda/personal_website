@@ -10,9 +10,6 @@ const useStyles = makeStyles((theme) => ({
         marginBottom: 20,
         bottom: theme.spacing(6),
         left: theme.spacing(6),
-        // "&:hover": {
-        //     color: theme.palette.primary.main,
-        // },
         transition: "all 0.5s ease",
     },
     linkText: { 

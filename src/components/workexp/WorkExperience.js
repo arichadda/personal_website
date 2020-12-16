@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
         "&:hover": {
             color: theme.palette.primary.main,
         },
-    }
+    },
 }));
 
 export const WorkExperience = () => {
@@ -66,6 +66,13 @@ export const WorkExperience = () => {
                     <Typography variant="h6" component="h3">In-Q-Tel – IQT Labs - CosmiQ Works</Typography>
                     <Typography variant="h8" component="h3">Data Science/Machine Learning Intern</Typography>
                     <Typography variant="body2">• Built and optimized a machine learning pipeline to perform complex classifications of civilian and military aircraft by using convolutional neural networks (semantic segmentation and object detection approaches in PyTorch) on remote sensing imagery</Typography>
+                    <Tooltip title={"IQT Company Blog"} placement="bottom" TransitionComponent={Zoom}>
+                        <Link color="inherit" underline="true" href="https://www.iqt.org/you-only-look-once%E2%80%8A-%E2%80%8Amulti-faceted-object-detection-w-rareplanes/" target="_blank" rel="noopener noreferrer" className={classes.linkText}>
+                            <Typography variant="body2">
+                                <div>• Click here to see the blog I wrote for In-Q-Tel about some of my work.</div>
+                            </Typography>
+                        </Link>
+                    </Tooltip>
                     <Typography variant="body2">• Created an AWS Amazon Machine Image instance, accompanying GitHub repository, YouTube walkthrough, Medium tutorial and presented to IQT’s Intelligence Community partners</Typography>
                 </TimelineContent>
             </TimelineItem>
